@@ -62,7 +62,7 @@ void loginScreen() {
     cout << "Password: ";
     cin >> password;
 
-    if (username == "ayush" && password == "shah") {
+    if (username == "admin" && password == "password") {
         cout << "Login successful!\n";
         mainMenu();
     } else {
